@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище WWWModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Case">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="location_of_dispatch" Type="nvarchar" MaxLength="50" />
+    <Property Name="place_of_arrival" Type="nvarchar" MaxLength="50" />
+    <Property Name="time_of_origin" Type="datetime" />
+    <Property Name="arrival_time" Type="datetime" />
+    <Property Name="price" Type="float" />
+    <Property Name="class_of_service" Type="int" />
+  </EntityType>
+  <EntityType Name="city">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="city" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Class_serv">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="class" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Know">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Knowledge" Type="ntext" Nullable="false" />
+    <Property Name="confidence" Type="int" Nullable="false" />
+    <Property Name="time" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="know2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="condition" Type="ntext" Nullable="false" />
+    <Property Name="rule" Type="ntext" Nullable="false" />
+    <Property Name="time" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Дата" Type="date" Nullable="false" />
+    <Property Name="Памятка" Type="ntext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Table2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Дата" Type="nchar" MaxLength="10" />
+    <Property Name="trtt" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="Хранилище WWWModelContainer">
+    <EntitySet Name="Case" EntityType="Self.Case" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="city" EntityType="Self.city" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Class_serv" EntityType="Self.Class_serv" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Know" EntityType="Self.Know" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="know2" EntityType="Self.know2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table" EntityType="Self.Table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table2" EntityType="Self.Table2" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

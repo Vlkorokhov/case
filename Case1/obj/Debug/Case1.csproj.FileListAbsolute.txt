@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\лич\Case1\Case1\bin\Debug\Case1.exe.config
+C:\Users\user\Desktop\лич\Case1\Case1\obj\Debug\Case1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\лич\Case1\Case1\obj\Debug\Case1.Form1.resources
+C:\Users\user\Desktop\лич\Case1\Case1\obj\Debug\Case1.Form2.resources
+C:\Users\user\Desktop\лич\Case1\Case1\obj\Debug\Case1.Properties.Resources.resources
+C:\Users\user\Desktop\лич\Case1\Case1\obj\Debug\Case1.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\лич\Case1\Case1\bin\Debug\Case1.exe
+C:\Users\user\Desktop\лич\Case1\Case1\bin\Debug\Case1.pdb
+C:\Users\user\Desktop\лич\Case1\Case1\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\лич\Case1\Case1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\лич\Case1\Case1\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\лич\Case1\Case1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\лич\Case1\Case1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\лич\Case1\Case1\obj\Debug\Case1.exe
+C:\Users\user\Desktop\лич\Case1\Case1\obj\Debug\Case1.pdb

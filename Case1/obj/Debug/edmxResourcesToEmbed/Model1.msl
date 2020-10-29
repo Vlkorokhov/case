@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище WWWModelContainer" CdmEntityContainer="WWWEntities3">
+    <EntitySetMapping Name="Case">
+      <EntityTypeMapping TypeName="WWWModel.Case">
+        <MappingFragment StoreEntitySet="Case">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="location_of_dispatch" ColumnName="location_of_dispatch" />
+          <ScalarProperty Name="place_of_arrival" ColumnName="place_of_arrival" />
+          <ScalarProperty Name="time_of_origin" ColumnName="time_of_origin" />
+          <ScalarProperty Name="arrival_time" ColumnName="arrival_time" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="class_of_service" ColumnName="class_of_service" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="city">
+      <EntityTypeMapping TypeName="WWWModel.city">
+        <MappingFragment StoreEntitySet="city">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="city1" ColumnName="city" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Class_serv">
+      <EntityTypeMapping TypeName="WWWModel.Class_serv">
+        <MappingFragment StoreEntitySet="Class_serv">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="class" ColumnName="class" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Know">
+      <EntityTypeMapping TypeName="WWWModel.Know">
+        <MappingFragment StoreEntitySet="Know">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Knowledge" ColumnName="Knowledge" />
+          <ScalarProperty Name="confidence" ColumnName="confidence" />
+          <ScalarProperty Name="time" ColumnName="time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="know2">
+      <EntityTypeMapping TypeName="WWWModel.know2">
+        <MappingFragment StoreEntitySet="know2">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="condition" ColumnName="condition" />
+          <ScalarProperty Name="rule" ColumnName="rule" />
+          <ScalarProperty Name="time" ColumnName="time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table">
+      <EntityTypeMapping TypeName="WWWModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Дата" ColumnName="Дата" />
+          <ScalarProperty Name="Памятка" ColumnName="Памятка" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table2">
+      <EntityTypeMapping TypeName="WWWModel.Table2">
+        <MappingFragment StoreEntitySet="Table2">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Дата" ColumnName="Дата" />
+          <ScalarProperty Name="trtt" ColumnName="trtt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
