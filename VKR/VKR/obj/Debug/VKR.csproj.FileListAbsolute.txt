@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\лич\VKR\VKR\bin\Debug\VKR.exe.config
+C:\Users\user\Desktop\лич\VKR\VKR\bin\Debug\VKR.exe
+C:\Users\user\Desktop\лич\VKR\VKR\bin\Debug\VKR.pdb
+C:\Users\user\Desktop\лич\VKR\VKR\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\лич\VKR\VKR\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\лич\VKR\VKR\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\лич\VKR\VKR\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\лич\VKR\VKR\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\лич\VKR\VKR\obj\Debug\VKR.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\лич\VKR\VKR\obj\Debug\VKR.Form1.resources
+C:\Users\user\Desktop\лич\VKR\VKR\obj\Debug\VKR.Form2.resources
+C:\Users\user\Desktop\лич\VKR\VKR\obj\Debug\VKR.Properties.Resources.resources
+C:\Users\user\Desktop\лич\VKR\VKR\obj\Debug\VKR.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\лич\VKR\VKR\obj\Debug\VKR.exe
+C:\Users\user\Desktop\лич\VKR\VKR\obj\Debug\VKR.pdb
